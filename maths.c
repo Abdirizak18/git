@@ -8,8 +8,13 @@ int main()
    scanf("%d%d",&a,&b);
  
    c = a + b;
+   
  
    printf("Sum of entered numbers = %d\n",c);
+   
+   printf("Enter two numbers to subtract\n");
+   scanf("%d%d",&a,&b);
+   c = a - b;
  
    return 0;
 }
